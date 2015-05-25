@@ -33,6 +33,14 @@ y.train <- fread("~/train/y_train.txt", header=FALSE)
 y.test <- fread("~/test/y_test.txt", header=FALSE)
 # [ 2947 obs. of 1 variable ] (activity.number)
 #
+# Load subject train data "subject_train.txt"
+dat1 <- fread("~/train/subject_train.txt")
+# [ 7352 obs. of 1 variable ] (subject.number)
+#
+# Load subject test data "subject_test.txt"
+dat2 <- fread("~/test/subject_test.txt")
+# [ 2947 obs. of 1 variable ] (subject.number)
+#
 # Step 3) Use descriptive activity names to name the activities 
 #  in the data set
 #
